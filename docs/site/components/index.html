@@ -72,7 +72,7 @@ var _hmt = _hmt || [];
       <h2 class="page-title">组件库</h2>
       <p class="page-description">IOS风格的精美组件.</p>
     </div>
-    
+
   </div>
 </div>
 
@@ -288,7 +288,7 @@ var _hmt = _hmt || [];
 
   <article class="component" id='router' data-url="router">
     <h2 class="component-title"><a href="https://github.com/sdc-alibaba/SUI-Mobile/blob/router/js/router.js" target="_blank">路由</a></h2>
-    <p><a href="../demos/routers/" target="_blank">更详细的极端测试Demo</a></p>
+    <p><a href="../demos/routers" target="_blank">更详细的极端测试Demo</a></p>
     <p>Router默认开启，会自动拦截所有链接的Touch行为，如果希望一个链接走浏览器原生跳转而不使用router，可以在链接上增加 <code>class="external"</code> 或者自定义属性,如 <code>&lt;a href="xxx" external&gt;xxx&lt;/a&gt;</code>.</p>
 
     <p>如果需要禁用路由功能,那么可以在 zepto 之后, msui 之前使用 script <code>$.config = {router: false}</code> 来禁用.</p>
@@ -313,7 +313,7 @@ var _hmt = _hmt || [];
         如果需要使用路由功能,那么页面代码结构上需要满足下面两个条件:
 
         <ol class="notice" style="padding-left:40px">
-            <li>和之前相比的差异：<b>每个 url 对应的 html 文档, 所有的展示内容都必须放在 <code>div.page-group</code> 里</b>。 形式可以参考<a href="../demos/routers/" target="_blank">router Demo</a></li>
+            <li>和之前相比的差异：<b>每个 url 对应的 html 文档, 所有的展示内容都必须放在 <code>div.page-group</code> 里</b>。 形式可以参考<a href="../demos/routers" target="_blank">router Demo</a></li>
             <li>html 文档中, 每个可以用来切换显示的块都应该有 <code>page</code> 的 class</li>
         </ol>
 
@@ -1802,7 +1802,7 @@ var _hmt = _hmt || [];
   <p class="component-description">多个Modal类组件（包括toast）同时被呼起时，会按先后顺序被缓存在队列中，前一个modal关闭后，下一个modal才会打开</p>
   <p class="component-description">Modals 可以只用JavaScript打开。所以让我们来看看使用modals的相关APP方法</p>
 
-  <!-- 
+  <!--
   <h3 class="component-title">预定义的 Modals</h3>
   <ul>
     <li>1.注意，如果你没有指定预定义的modal标题，它讲使用默认的标题，这个可以在App 初始化时，通过传递 modalTitle 参数改变。</li>
@@ -2560,7 +2560,7 @@ var _hmt = _hmt || [];
   <p class="component-description">Popup 是一种可以包含任何Html内容的弹出窗口，从App的主内容区域上弹出。 Popup 和其他所有的遮罩图层一样，是所谓的“临时视图”的一部分。</p>
   <h3 class="component-title">Popup 布局</h3>
   <p class="component-description">Popup 布局相当简单. 你所需要做的就是将 <div class="popup"> 任何需要展示的内容 </div> 放到 body 里正确的位置上:</p>
-<figure class="highlight"><pre><code class="language-html" data-lang="html">  
+<figure class="highlight"><pre><code class="language-html" data-lang="html">
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal modal-no-buttons"</span><span class="nt">&gt;</span>
   ...
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"popup"</span><span class="nt">&gt;</span>
@@ -2601,7 +2601,7 @@ var _hmt = _hmt || [];
         </div>
       </div>
     </div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html">  
+<figure class="highlight"><pre><code class="language-html" data-lang="html">
 <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"bar bar-nav"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>Popup(HTML)<span class="nt">&lt;/h1&gt;</span>
 <span class="nt">&lt;/header&gt;</span>
@@ -2611,8 +2611,8 @@ var _hmt = _hmt || [];
       <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"open-about"</span><span class="nt">&gt;</span>Open About Popup <span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
       <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"open-services"</span><span class="nt">&gt;</span>Open Services Popup <span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-       
-<span class="nt">&lt;/div&gt;</span> 
+
+<span class="nt">&lt;/div&gt;</span>
 <span class="c">&lt;!-- About Popup --&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"popup popup-about"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-block"</span><span class="nt">&gt;</span>
@@ -2648,16 +2648,16 @@ var _hmt = _hmt || [];
         <p><a href="#" class="open-about">Open About Popup </a></p>
         <p><a href="#" class="open-services">Open Services Popup </a></p>
       </div>
-      
+
       <script type="text/javascript">
         $(document).on('click','.open-about', function () {
           $.popup('.popup-about');
         });
-         
+
         $(document).on('click','.open-services', function () {
           $.popup('.popup-services');
-        });          
-      </script>    
+        });
+      </script>
     </div>
    <!-- About Popup -->
     <div class="popup popup-about">
@@ -2676,7 +2676,7 @@ var _hmt = _hmt || [];
       </div>
     </div>
   </div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html">  
+<figure class="highlight"><pre><code class="language-html" data-lang="html">
 <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"bar bar-nav"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>Popup(JavaScript)<span class="nt">&lt;/h1&gt;</span>
 <span class="nt">&lt;/header&gt;</span>
@@ -2686,8 +2686,8 @@ var _hmt = _hmt || [];
       <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"open-about"</span><span class="nt">&gt;</span>Open About Popup <span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
       <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"open-services"</span><span class="nt">&gt;</span>Open Services Popup <span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-       
-<span class="nt">&lt;/div&gt;</span> 
+
+<span class="nt">&lt;/div&gt;</span>
 <span class="c">&lt;!-- About Popup --&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"popup popup-about"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-block"</span><span class="nt">&gt;</span>
@@ -2704,11 +2704,11 @@ var _hmt = _hmt || [];
     <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor ...<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>  </code></pre></figure>
-<figure class="highlight"><pre><code class="language-js" data-lang="js">  
+<figure class="highlight"><pre><code class="language-js" data-lang="js">
 <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">.open-about</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
   <span class="nx">$</span><span class="p">.</span><span class="nx">popup</span><span class="p">(</span><span class="dl">'</span><span class="s1">.popup-about</span><span class="dl">'</span><span class="p">);</span>
 <span class="p">});</span>
- 
+
 <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">.open-services</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
   <span class="nx">$</span><span class="p">.</span><span class="nx">popup</span><span class="p">(</span><span class="dl">'</span><span class="s1">.popup-services</span><span class="dl">'</span><span class="p">);</span>
 <span class="p">});</span>   </code></pre></figure>
@@ -2770,8 +2770,8 @@ var _hmt = _hmt || [];
         });
         $(document).on('click','.popup-services', function () {
           console.log('Services Popup is closed')
-        });            
-      </script>    
+        });
+      </script>
     </div>
    <!-- About Popup -->
     <div class="popup popup-about">
@@ -2780,7 +2780,7 @@ var _hmt = _hmt || [];
         <p><a href="#" class="close-popup">Close popup</a></p>
         <p>Lorem ipsum dolor ...</p>
       </div>
-      
+
     </div>
     <!-- Services Popup -->
     <div class="popup popup-services">
@@ -2791,7 +2791,7 @@ var _hmt = _hmt || [];
       </div>
     </div>
   </div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html">  
+<figure class="highlight"><pre><code class="language-html" data-lang="html">
 <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"bar bar-nav"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>Popup事件<span class="nt">&lt;/h1&gt;</span>
 <span class="nt">&lt;/header&gt;</span>
@@ -2819,7 +2819,7 @@ var _hmt = _hmt || [];
     <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor ...<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>  </code></pre></figure>
-<figure class="highlight"><pre><code class="language-js" data-lang="js">  
+<figure class="highlight"><pre><code class="language-js" data-lang="js">
 <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">.popup-about</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">About Popup opened</span><span class="dl">'</span><span class="p">)</span>
 <span class="p">});</span>
@@ -2859,11 +2859,11 @@ var _hmt = _hmt || [];
                             '</div>'+
                           '</div>'
           $.popup(popupHTML);
-        });                   
-      </script>    
+        });
+      </script>
     </div>
    </div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html">  
+<figure class="highlight"><pre><code class="language-html" data-lang="html">
 <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"bar bar-nav"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>动态的 Popup<span class="nt">&lt;/h1&gt;</span>
 <span class="nt">&lt;/header&gt;</span>
@@ -2874,7 +2874,7 @@ var _hmt = _hmt || [];
     <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"create-popup"</span><span class="nt">&gt;</span>Create Popup<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
-<figure class="highlight"><pre><code class="language-js" data-lang="js">  
+<figure class="highlight"><pre><code class="language-js" data-lang="js">
 <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">.create-popup</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
   <span class="kd">var</span> <span class="nx">popupHTML</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">&lt;div class="popup"&gt;</span><span class="dl">'</span><span class="o">+</span>
                     <span class="dl">'</span><span class="s1">&lt;div class="content-block"&gt;</span><span class="dl">'</span><span class="o">+</span>
@@ -3010,10 +3010,10 @@ var _hmt = _hmt || [];
         ];
         var groups = [buttons1, buttons2];
         $.actions(groups);
-      }); 
+      });
   </script>
   </div>
-  <figure class="highlight"><pre><code class="language-html" data-lang="html">  
+  <figure class="highlight"><pre><code class="language-html" data-lang="html">
   <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"bar bar-nav"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>操作表<span class="nt">&lt;/h1&gt;</span>
   <span class="nt">&lt;/header&gt;</span>
@@ -3024,7 +3024,7 @@ var _hmt = _hmt || [];
     <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
   </code></pre></figure>
-  <figure class="highlight"><pre><code class="language-js" data-lang="js">  
+  <figure class="highlight"><pre><code class="language-js" data-lang="js">
   <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">.create-actions</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
       <span class="kd">var</span> <span class="nx">buttons1</span> <span class="o">=</span> <span class="p">[</span>
         <span class="p">{</span>
@@ -3054,7 +3054,7 @@ var _hmt = _hmt || [];
       <span class="p">];</span>
       <span class="kd">var</span> <span class="nx">groups</span> <span class="o">=</span> <span class="p">[</span><span class="nx">buttons1</span><span class="p">,</span> <span class="nx">buttons2</span><span class="p">];</span>
       <span class="nx">$</span><span class="p">.</span><span class="nx">actions</span><span class="p">(</span><span class="nx">groups</span><span class="p">);</span>
-  <span class="p">});</span> 
+  <span class="p">});</span>
   </code></pre></figure>
 </article>
 
@@ -3741,7 +3741,7 @@ var _hmt = _hmt || [];
       <span class="nt">&lt;span&gt;</span>2015/01/15<span class="nt">&lt;/span&gt;</span>
       <span class="nt">&lt;span&gt;</span>5 评论<span class="nt">&lt;/span&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>            
+  <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
 </article>
@@ -3847,12 +3847,12 @@ var _hmt = _hmt || [];
     <p class="component-description">
         一般情况下你不需要自行初始化滚动条，因为 <code>$.init()</code>方法会自动初始化滚动条。如果你希望自行初始化，可以这样：
     </p>
-    <figure class="highlight"><pre><code class="language-js" data-lang="js"> 
+    <figure class="highlight"><pre><code class="language-js" data-lang="js">
 <span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.content</span><span class="dl">"</span><span class="p">).</span><span class="nx">scroller</span><span class="p">({</span>
         <span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">js</span><span class="dl">'</span>
     <span class="p">});</span>
-<span class="p">});</span>   
+<span class="p">});</span>
     </code></pre></figure>
 
     <p class="component-description">
@@ -3866,7 +3866,7 @@ var _hmt = _hmt || [];
     <p class="component-description">
         上边demo使用的是javascript接口的调用方式，scroller.js 同时提供data-api的模式。通过添加标签属性
         <code>data-toggle="scroller"</code>。 滚动类型通过：<code>data-type="auto"</code>来配置。
-    </p> 
+    </p>
     <p>你可以在 <code>.content</code> 容器上通过 <code>data-type='native'</code> 指定在当前页面使用原生滚动条。</p>
     <p class="component-description">
         注意： scroller 插件会页面载入完成后，默认初始化带有class<code>.content</code>或者属性<code>data-toggle="scroller"</code>的元素为auto模式的滚动条。如果想要<code>.content</code>的元素全部初始为js的模式，需要在.content 标签加上属性<code>data-type="js"</code>
@@ -3874,27 +3874,27 @@ var _hmt = _hmt || [];
     <h3 class="component-title">重置滚动</h3>
      <p class="component-description">在js模式下，滚动区域高度发生变化时，需要对滚动条进行刷新，scroller 提供两种方式来进行刷新：</p>
      <p class="component-description">1. 局部刷新，只针对某个容器的刷新</p>
-        <figure class="highlight"><pre><code class="language-js" data-lang="js"> 
+        <figure class="highlight"><pre><code class="language-js" data-lang="js">
 <span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.content</span><span class="dl">"</span><span class="p">).</span><span class="nx">scroller</span><span class="p">(</span><span class="dl">'</span><span class="s1">refresh</span><span class="dl">'</span><span class="p">);</span>
-<span class="p">});</span>   
+<span class="p">});</span>
     </code></pre></figure>
     <p class="component-description">2. 全局刷新，会刷新页面上所有的滚动条</p>
-        <figure class="highlight"><pre><code class="language-js" data-lang="js"> 
+        <figure class="highlight"><pre><code class="language-js" data-lang="js">
 <span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="nx">$</span><span class="p">.</span><span class="nx">refreshScroller</span><span class="p">();</span>
-<span class="p">});</span>   
+<span class="p">});</span>
     </code></pre></figure>
-    
+
     <h3 class="component-title">滚动接口</h3>
     <p class="component-description">scroller插件重置的了zepto的滚动方法，无论在js模式下或者native模式下都是一样的调用方式：</p>
-        <figure class="highlight"><pre><code class="language-js" data-lang="js"> 
+        <figure class="highlight"><pre><code class="language-js" data-lang="js">
 <span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.content</span><span class="dl">'</span><span class="p">).</span><span class="nx">scrollTop</span><span class="p">();</span> <span class="c1">//==&gt; number</span>
     <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.content</span><span class="dl">'</span><span class="p">).</span><span class="nx">scrollTop</span><span class="p">(</span><span class="nx">number</span><span class="p">);</span> <span class="c1">// ==&gt;self</span>
     <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.content</span><span class="dl">'</span><span class="p">).</span><span class="nx">scrollLeft</span><span class="p">();</span> <span class="c1">//==&gt; number</span>
     <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.content</span><span class="dl">'</span><span class="p">).</span><span class="nx">scrollLeft</span><span class="p">(</span><span class="nx">number</span><span class="p">);</span> <span class="c1">// ==&gt;self</span>
-<span class="p">});</span>   
+<span class="p">});</span>
     </code></pre></figure>
 <h3 class="component-title">滚动事件</h3>
     <div class="component-description">
@@ -3909,13 +3909,13 @@ var _hmt = _hmt || [];
     <p class="component-description">
         直接通过下边的方式进行监听
     </p>
-    <figure class="highlight"><pre><code class="language-js" data-lang="js"> 
+    <figure class="highlight"><pre><code class="language-js" data-lang="js">
 <span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">.content</span><span class="dl">"</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">scrollStart</span><span class="dl">'</span><span class="p">,</span><span class="kd">function</span><span class="p">(){</span>
      <span class="c1">//dosomething</span>
     <span class="p">});</span>
-<span class="p">});</span>   
-    </code></pre></figure>   
+<span class="p">});</span>
+    </code></pre></figure>
 
 </article>
 
@@ -4081,7 +4081,7 @@ ptrContent - HTMLElement or string (with CSS Selector) 需要启用的下拉刷�
         你只需在可滚动的容器上添加“infinite-scroll”类，一般是页面滚动区域 - <code>div.content</code>
     </p>
     <div class="component-example component-example-fullbleed">
-        
+
     </div>
     <figure class="highlight"><pre><code class="language-html" data-lang="html">      <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">"text/css"</span><span class="nt">&gt;</span>
       <span class="nc">.infinite-scroll-preloader</span> <span class="p">{</span>
@@ -4274,7 +4274,7 @@ ptrContent - HTMLElement or string (with CSS Selector) 需要启用的下拉刷�
     <p class="component-description">如果你需要向上滚动到顶部时进行无限滚动，那么需要在 “<code>content</code>”添加额外的class <code>infinite-scroll-top</code>
     </p>
     <div class="component-example component-example-fullbleed">
-        
+
     </div>
 
 
@@ -4284,7 +4284,7 @@ ptrContent - HTMLElement or string (with CSS Selector) 需要启用的下拉刷�
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content infinite-scroll infinite-scroll-top"</span> <span class="na">data-distance=</span><span class="s">"50"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list-block"</span><span class="nt">&gt;</span>
           <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-container"</span><span class="nt">&gt;</span>
-           
+
           <span class="nt">&lt;/ul&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
 
@@ -4293,7 +4293,7 @@ ptrContent - HTMLElement or string (with CSS Selector) 需要启用的下拉刷�
           <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"preloader"</span><span class="nt">&gt;</span>
           <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>      
+    <span class="nt">&lt;/div&gt;</span>
   </code></pre></figure>
 
     <script type="text/javascript">
@@ -4342,7 +4342,7 @@ ptrContent - HTMLElement or string (with CSS Selector) 需要启用的下拉刷�
               }
 
               addItemsTop(itemsPerLoad,lastIndex);
-             
+
               $.refreshScroller();
               //使用scrollIntoView改善性能，体验稍欠
               //  lastLi.scrollIntoView({
@@ -4389,9 +4389,9 @@ ptrContent - HTMLElement or string (with CSS Selector) 需要启用的下拉刷�
             <span class="nx">timer</span> <span class="o">=</span> <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
 
               <span class="nx">addItemsTop</span><span class="p">(</span><span class="nx">itemsPerLoad</span><span class="p">,</span><span class="nx">lastIndex</span><span class="p">);</span>
-             
+
               <span class="nx">$</span><span class="p">.</span><span class="nx">refreshScroller</span><span class="p">();</span>
-             
+
               <span class="c1">// 将滚动条的位置设置为最新滚动元素高度和之前的高度差</span>
               <span class="nx">scroller</span><span class="p">.</span><span class="nx">scrollTop</span><span class="p">(</span><span class="nx">scroller</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">scrollHeight</span> <span class="o">-</span> <span class="nx">scrollHeight</span><span class="p">);</span>
             <span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
@@ -4405,7 +4405,7 @@ ptrContent - HTMLElement or string (with CSS Selector) 需要启用的下拉刷�
   <h3 class="component-title">多个标签页下的无限滚动</h3>
 
   <p class="component-description">一个页面的多个标签中可单独初始化infinite-scroll，在需要无限滚动的tab上加<code>"infinite-scroll"</code>类</p>
-  
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html">  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content"</span> <span class="na">data-type=</span><span class="s">""</span><span class="nt">&gt;</span>
     <span class="nt">&lt;p&gt;</span>其他内容区域<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;p&gt;</span>其他内容区域<span class="nt">&lt;/p&gt;</span>
